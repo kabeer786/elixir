@@ -1,0 +1,10 @@
+{
+  "name": "ionic-template-login-register",
+  "app_id": "32febb4d",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://ion-api.dev"
+    }
+  ]
+}
