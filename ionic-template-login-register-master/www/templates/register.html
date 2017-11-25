@@ -1,0 +1,36 @@
+<ion-view title="Register" id="page3">
+    <ion-content padding="true" class="has-header" ng-controller="registerCtrl">
+        <form class="list">
+            <div class="list">
+                
+                  
+                   <label class="item item-input item-floating-label">
+                     <span  class="input-label">user name</span>
+                     <input  ng-model="username"  type="text" placeholder="user name">
+                   </label>
+                   <label class="item item-input item-floating-label">
+                    <span  class="input-label">email</span>
+                    <input  ng-model="email"  type="text" placeholder="email id">
+                  </label>
+                   <label class="item item-input item-floating-label">
+                       <span class="input-label">password</span>
+                       <input  ng-model="password" type="password" placeholder="password">
+                     </label>
+                     <label class="item item-input item-floating-label">
+                        <span  class="input-label">DOB #</span>
+                        <input  ng-model="DOB"  type="number" placeholder="DOB">
+                      </label>
+                     <label class="item item-input item-floating-label">
+                        <span  class="input-label">mobile #</span>
+                        <input  ng-model="mobile"  type="number" placeholder="mobile #">
+                      </label>
+                      <label class="item item-input item-floating-label">
+                        <span  class="input-label">address</span>
+                        <input  ng-model="address"  type="text" placeholder="address">
+                      </label>
+                 </div>
+          <!--  <a ui-sref="profile" id="register-button3" class="button button-stable  button-block button-positive">Sign up</a>-->
+          <a ng-click="register()" id="login-button1" class="button button-stable  button-block button-positive">Register</a>
+        </form>
+    </ion-content>
+</ion-view>

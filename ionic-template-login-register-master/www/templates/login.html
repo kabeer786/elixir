@@ -1,0 +1,41 @@
+<ion-view title="SWCorp login" id="page2">
+    <ion-content padding="true" class="has-header" ng-controller="loginCtrl" >
+        <!-- <button id="login-button4" class="button button-positive  button-block">Login with Facebook</button> -->
+      
+       
+          <div class="item item-avatar">
+            <img src="http://wms.beyondsuccess.com.my/assets/pages/img/logo-big.png">
+            <h2>Welcome to SWCorp</h2>
+            <p>Login to your account</p>
+          </div>
+        
+        <form class="list">
+            <!-- <ion-list>
+                <label class="item item-input">
+                    <span class="input-label">email</span>
+             
+                    <input name="kabeer" ng-value="" ng-model="email"   type="text" placeholder="email id" />
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input name="kaber" ng-value="" ng-model="password" type="password" placeholder="password" />
+                </label>
+            </ion-list> -->
+            <div class="list">
+             
+               
+                <label class="item item-input item-floating-label">
+                  <span  class="input-label">Email</span>
+                  <input  ng-model="email"  type="text" placeholder="email id">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">password</span>
+                    <input  ng-model="password" type="password" placeholder="password">
+                  </label>
+              </div>
+            <div class="spacer" style="height: 40px;"></div>
+            <a ng-click="login()" id="login-button1" class="button button-stable  button-block button-positive">Log in</a>
+            <a ui-sref="register" id="login-button2" class="button   button-block button-royal">create an account</a>
+        </form>
+    </ion-content>
+</ion-view> 
